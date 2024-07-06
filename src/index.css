@@ -1,0 +1,671 @@
+   /*************** Nav bar sign up button  **************/
+.sign-up-button {
+    cursor: pointer;
+    font-weight: 900;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    padding: 5px 15px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 5px;
+    position: absolute;
+}
+
+.sign-up-button:hover {
+    background: #414141;
+}
+
+.sign-up-button > svg {
+    width: 54px;
+    transition: transform .3s ease-in-out;
+}
+
+.sign-up-button:hover svg {
+    transform: translateX(5px);
+}
+
+.sign-up-button:active {
+    transform: scale(0.95);
+}
+
+   
+   /********************************************************** hero banner **********************************************************************/
+/* ******************* Learn and earn with digiskills *******************   */
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.inline-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 0px;
+    margin-left: 150px;
+}
+
+.text-container h1 {
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 23px;
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.text-container span {
+    color: #f39c12;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.image-container img {
+    max-width: 800px;
+}
+
+ 
+.shapes-banner {
+    position: absolute;
+    height: 120px;
+    width: 80px;
+    top: 200px;
+    left: 0;
+}
+
+.red-dots {
+    position: absolute;
+    height: 80px;
+    width: 60px;
+    top: 180px;
+    left: 40px;
+    z-index: -1;
+}
+
+.grey-dots {
+    position: absolute;
+    height: 80px;
+    width: 60px;
+    top: 140px;
+    left: 800px;
+    z-index: -1;
+}
+
+
+/*************** join now free cources button  **************/
+.custom-join-btn {
+    cursor: pointer;
+    font-weight: 900;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    /* width: 300px; */
+    position: absolute;
+    left: 140px;
+    top: 450px;
+}
+
+.custom-join-btn:hover {
+    background: #414141;
+}
+
+.custom-join-btn > svg {
+    width: 54px;
+    transition: transform .3s ease-in-out;
+}
+
+.custom-join-btn:hover svg {
+    transform: translateX(5px);
+}
+
+.custom-join-btn:active {
+    transform: scale(0.95);
+}
+
+/********************************* Chatbot ******************************** */
+.skilly{
+    position: absolute;
+    top: 530px;
+    left: 1320px;
+}
+.glasses-bg{
+    position: absolute;
+    top: 650px;
+    left: 1250px;
+}
+.glasses{
+    position: absolute;
+    top: 640px;
+    left: 1260px;
+}
+.glasses-questions{
+    position: absolute;
+    top: 655px;
+    left: 1333px;
+}
+  /* ***************************** end of hero-banner **************************/
+
+/********************************************************** about ds section   **********************************************************************/
+.about-ds-black-heading {
+    position: absolute;
+    top: 750px;
+    left: 80px;
+  } 
+
+
+  /* ******** Icons grey-Cards section *********  */
+
+  /* icon-card-what-ds */
+.icon-card-what-ds { 
+    transition: all .5s ease-in-out; 
+    }
+    .icon-card-what-ds:hover { 
+    transform: scale(1.1); 
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); 
+    }
+
+    /* icon-card-why-ds */
+.icon-card-why-ds{ 
+    transition: all .5s ease-in-out; 
+    }
+    .icon-card-why-ds:hover { 
+        transform: scale(1.1); 
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); 
+        }
+
+        /* icon-card-who-ds */
+    .icon-card-who-ds{ 
+    transition: all .5s ease-in-out; 
+    }
+    .icon-card-who-ds:hover { 
+        transform: scale(1.1); 
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); 
+        }
+
+        /* icon-card-join-ds */
+ .icon-card-join-ds{ 
+    transition: all .5s ease-in-out; 
+    }
+    .icon-card-join-ds:hover { 
+        transform: scale(1.1); 
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3); 
+        }
+  /******************* view more btn ********************  */
+  .another-join-btn {
+    cursor: pointer;
+    /* font-weight: 500; */
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    /* padding: 5px 10px; */
+    /* width: 160px; */
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 90px;
+    top: 1100px;
+}
+
+.another-join-btn:hover {
+    background: #414141;
+}
+
+.another-join-btn > svg {
+    width: 56px;
+    transition: transform .3s ease-in-out;
+    margin: 0px;
+    padding: 0px;
+}
+
+.another-join-btn:hover svg {
+    transform: translateX(5px);
+}
+
+.another-join-btn:active {
+    transform: scale(0.95);
+}
+
+  /* ************************************************ Courses Offered section ************************************************** */
+  .courses-ofer-card-img{
+    width: 320px;
+    height: 208px;
+
+    /* border: solid #000000 2px; */
+    /* box-shadow:  2px 2px 2px 2px #c2bebe; */
+
+  }
+  .bell-icon{
+    position: absolute;
+    top: 1435px;
+    left: 80pxpx;
+    /* right: 50px; */
+    /* bottom: 200px; */
+  }
+  
+  .courses-ofer-black-heading {
+    position: absolute;
+    top: 1385px;
+    left: 100px;
+  }
+  
+/******************* view all btn ********************  */
+.view-all-btn {
+    cursor: pointer;
+    /* font-weight: 500; */
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    /* padding: 5px 10px; */
+    /* width: 160px; */
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1250px;
+    top: 1380px;
+}
+
+.view-all-btn:hover {
+    background: #414141;
+}
+
+.view-all-btn > svg {
+    width: 56px;
+    transition: transform .3s ease-in-out;
+    margin: 0px;
+    padding: 0px;
+}
+
+/******************* load more btn ********************  */
+.load-more-btn {
+    cursor: pointer;
+    /* font-weight: 500; */
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    /* padding: 5px 10px; */
+    /* width: 160px; */
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 690px;
+    top: 2330px;
+}
+
+.load-more-btn:hover {
+    background: #414141;
+}
+
+.load-more-btn > svg {
+    width: 56px;
+    transition: transform .3s ease-in-out;
+    margin: 0px;
+    padding: 0px;
+}
+/* <!-- ************************************************************ Overall status section ************************************************************--> */
+.bg-img-color {
+    height: 450PX;
+    /* position: absolute; */
+    /* top: 2408px; */
+  /* **************** btn view more insight  ****************--> */
+
+}
+.view-more-insight {
+    cursor: pointer;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 650px;
+    top: 350px;
+}
+
+.view-more-insight:hover {
+    background: #fef5f5;
+    color: black;
+}
+
+.view-more-insight > svg {
+    width: 56px;
+    transition: transform .3s ease-in-out;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* <!-- ************************************************************ News and Events section ************************************************************--> */
+
+.news-events-black-heading{
+position: absolute;
+left: 90px ;
+top: 2920px;
+}
+  /********************** view all sec btn *********************/
+.view-all-sec-btn {
+    cursor: pointer;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1250px;
+    top: 2930px;
+}
+
+.view-all-sec-btn:hover {
+    background: #414141;
+}
+
+.view-all-sec-btn > svg {
+    width: 56px;
+    transition: transform .3s ease-in-out;
+    margin: 0px;
+    padding: 0px;
+}
+
+ .date{
+    position: absolute;
+    top: 3030px;
+    left: 100px;
+ }
+
+ .date2{
+    position: absolute;
+    top: 3300px;
+    left: 100px;
+ }
+ .date3{
+    position: absolute;
+    top: 3550px;
+    left: 100px;
+ }
+
+ .btn-read-more{
+    position: absolute;
+    top: 3120px;
+    left: 610px;
+ }
+ .btn2-read-more{
+    position: absolute;
+    top: 3350px;
+    left: 620px;
+ }
+  
+ .btn3-read-more{
+    position: absolute;
+    top: 3610px;
+    left: 620px;
+ }
+  
+
+/* <!-- ************************************************************ success-stories section ************************************************************--> */
+.success-stories-bg-img{
+    height: 600px;
+}
+ .success-stories-black-heading{
+    position: absolute;
+    top: 3840px;
+    left: 90px;
+
+
+ }
+ .success-stories-white-heading{
+    position: absolute;
+    top: 3770px;
+    left: 100px;
+
+ }
+/* ******* view more third btn btn *********/
+
+ .view-more-third-btn {
+    cursor: pointer;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1250px;
+    top: 3840px;
+}
+
+.view-more-third-btn:hover {
+    background: white;
+    color: black;
+}
+
+.view-more-third-btn > svg {
+    width: 56px;
+    transition: transform .3s ease-in-out;
+    margin: 0px;
+    padding: 0px;
+}
+
+.view-more-third-btn-bg {
+    background-color: #F99312;
+}
+
+.view-more-third-btn-text {
+    color: white;
+    height: 40px;
+    animation: fadeInUp 1s;
+}
+
+.view-more-third-btn-svg {
+    width: 34px;
+    height: 34px;
+}
+.profile-pick1{
+    position: absolute;
+    top: 3940px;
+    left: 360px;
+}
+.profile-pick2{
+    position: absolute;
+    top: 4000px;
+    left: 450px;
+}
+.profile-pick3{ 
+    position: absolute;
+    top: 3940px;
+    left: 530px;
+}
+.profile-pick4{
+    position: absolute;
+    top: 4100px;
+    left: 530px;
+}
+.profile-pick5{
+    position: absolute;
+    top: 4050px;
+    left: 380px;
+}
+
+.profile-pick6{
+    position: absolute;
+    top: 3940px;
+    left: 530px;
+}
+.profile-pick-center{
+    position: absolute;
+    top: 4070px;
+    left: 670px;
+}
+
+.dotted-demi-circle{
+    position: absolute;
+    top: 4000px;
+    left: 600px;
+}
+.success-stories-text{
+    position: absolute;
+    top: 3930px;
+    left: 800px;
+
+}
+.top-erners-h{
+    position: absolute;
+    top: 3880px;
+    left: 90px;
+
+}
+
+/* <!-- ************************************************************story of the month section ************************************************************--> */
+ .story-of-month-bg{
+    height: 600px;
+ }
+.month-story-black-heading{
+    position: absolute;
+    top: 4455px;
+    left: 88px;
+} 
+
+/* ******* view more fourth btn btn *********/
+
+.view-more-fourth-btn {
+    cursor: pointer;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 1250px;
+    top: 4440px;
+}
+
+.view-more-fourth-btn:hover {
+    background:  #414141;
+    /* color: black; */
+}
+
+.view-more-fourth-btn > svg {
+    width: 56px;
+    transition: transform .3s ease-in-out;
+    margin: 0px;
+    padding: 0px;
+}
+
+.view-more-fourth-btn-bg {
+    background-color: #F99312;
+}
+
+.view-more-fourth-btn-text {
+    color: white;
+    height: 40px;
+    animation: fadeInUp 1s;
+}
+
+.view-more-fourth-btn-svg {
+    width: 34px;
+    height: 34px;
+}
+
+.success-stories-date{
+    position: absolute;
+    top: 4500px;
+    left: 90px;
+}
+.video{
+    position: absolute;
+    top: 4580px;
+    left: 90px;
+}
+.video-icon{
+    position: absolute;
+    top: px;
+    left: 490px;
+    bottom: 280px;
+}
+
+/* <!-- ************************************************************  Popular Blogs section ************************************************************-->  */
+
+
+.popular-blogs-white-heading{
+    position: absolute;
+    top: 4940px;
+    left: 50px;
+
+
+ }
+ .popular-blogs-black-heading{
+    position: absolute;
+    top: 5053px;
+    left: 123px;
+ }
+ .card-img{
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    top: 5150px;
+ }
+ .card-text-area{
+    height: 200px;
+    width: 400px;
+ }
+ /* <!-- ************************************************************   Be your own boss section ************************************************************-->  */
+
+ .boss-text{
+    position: absolute;
+    top: 5700px;
+ }
+
+ /* <!-- ************************************************************   mobile app section ************************************************************-->  */
+
+ .mobile-app-white-heading {
+    position: absolute;
+    top: 5830px;
+    left: 50px;
+ }
+
+ .mobile-app-black-heading{
+    position: absolute;
+    top: 5940px;
+    left: 123px;
+
+ }
+
+ .app-icons{
+    position: absolute;
+    top: 6470px;
+    left: 700px;
+ }

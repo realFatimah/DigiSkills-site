@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiSkills</title>
+    <link rel="stylesheet" href="./src/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <style>
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="absolute z-10 w-full ">
+        <!--*************** Start of the Navbar ***************-->
+    <nav class="bg-white shadow-lg ">
+        <div class=" mx-auto py-">
+            <div class="flex justify-between items-center fixed bg-white w-full shadow-lg">
+                <div class="flex items-center space-x-2">
+                    <!-- Digiskills Logo -->
+                    <div>
+                        <a href="index.html" class="flex items-center py-4 mr-8 py-4 ml-20">
+                            <img src="https://digiskills.pk/images/logo.png" alt="Digiskills Logo" class="h-12 w-42 mr-16">
+                        </a>
+                    </div>
+                    <!--  Navbar items -->
+                    <div class="hidden md:flex items-center space-x-8">
+
+                        <div class="relative group">
+                            <a href="#" class="text-slate-700 font-medium text-1xl hover:text-[#F59321] transition duration-300">Home</a>
+                            <!-- Orange line shows up when hovered -->
+                            <hr class="absolute left-0 right-0 bottom-[-5px] border-b-2 border-transparent duration-300 group-hover:border-[#F59321]">
+                        </div>
+
+                        <div class="relative group">
+                            <a href="#courses" class="text-slate-700 font-medium text-1xl hover:text-[#F59321] transition duration-300">Courses</a>
+                            <!-- Orange line shows up when hovered -->
+                            <hr class="absolute left-0 right-0 bottom-[-5px] border-b-2 border-transparent duration-300 group-hover:border-[#F59321]">
+                        </div>
+
+                        <div class="relative group">
+                            <a href="#news&events" class="text-slate-700 font-medium text-1xl hover:text-[#F59321] transition duration-300">News & Events</a>
+                            <!-- Orange line shows up when hovered -->
+                            <hr class="absolute left-0 right-0 bottom-[-5px] border-b-2 border-transparent duration-300 group-hover:border-[#F59321]">
+                        </div>
+
+                        <div class="relative group">
+                            <a href="how-it-works.html" class="text-slate-700 font-medium text-1xl hover:text-[#F59321] transition duration-300">How It Works</a>
+                            <!-- Orange line shows up when hovered -->
+                            <hr class="absolute left-0 right-0 bottom-[-5px] border-b-2 border-transparent duration-300 group-hover:border-[#F59321]">
+                        </div>
+
+                        <div class="relative group">
+                            <a href="news-and-events.html" class="text-slate-700 font-medium text-1xl hover:text-[#F59321] transition duration-300">Blog</a>
+                            <!-- Orange line shows up when hovered -->
+                            <hr class="absolute left-0 right-0 bottom-[-5px] border-b-2 border-transparent duration-300 group-hover:border-[#F59321]">
+                        </div>
+
+                        <div class="relative group">
+                            <a href="FAQs.html" class="text-slate-700 font-medium text-1xl hover:text-[#F59321] transition duration-300">FAQs</a>
+                            <!-- Orange line shows up when hovered -->
+                            <hr class="absolute left-0 right-0 bottom-[-5px] border-b-2 border-transparent duration-300 group-hover:border-[#F59321]">
+                        </div>
+
+                        <div class="relative group">
+                            <a href="" class="text-slate-700 font-medium text-1xl hover:text-[#F59321] transition duration-300">Contact</a>
+                            <!-- Orange line shows up when hovered -->
+                            <hr class="absolute left-0 right-0 bottom-[-5px] border-b-2 border-transparent duration-300 group-hover:border-[#F59321]">
+                        </div>
+
+
+                        <div class="relative group">
+                            <a href="sign_up.html" class="text-[#F59321] font-medium text-1xl hover:text-slate-700 transition duration-300">Sign In</a>
+                            <!-- Orange line shows up when hovered -->
+                            <hr class="absolute left-0 right-0 bottom-[-5px] border-b-2 border-transparent duration-300 group-hover:border-[#F59321]">
+                        </div>
+
+                    </div>
+                </div>
+                <!-- ************* Navbar search button ************-->
+
+
+<!-- /*************** Nav bar sign up button  **************/ -->
+<div class=" mb-10 mr-80">
+    <button class="sign-up-button bg-[#F99312] text-white h-10 animate_animated animate_fadeInUp">
+        <span class="text-lg font-bold">Sign Up</span>
+        <svg width="sign-up-svg 34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="white" class="font-bold">
+            </path>
+        </svg>
+    </button>
+    
+</div>
+            </div>
+        </div>
+    </nav>
+<!-- ************** End of navbar ***************** -->
+    </section>
+
+<!-- ***************************** Herro Banner ************************************************ -->
+<section>
+    <!-- ******************* impact of DigiSkills  *******************-->
+   <!-- <div class="">
+      <img src="https://digiskills.pk/images/impact_of_dstp.jpg" alt="Impact of DigiSkills" class=" ">
+  </div> -->
+
+     <!-- ******************* Learn and earn with digiskills ******************* -->
+  <div class="container mb-12">
+    <img src="https://digiskills.pk/images/shapes_banner.png" class="shapes-banner" alt="banner">
+    <img src="https://digiskills.pk/images/dots.png" class="red-dots" alt="red-dots">
+
+    <div class="inline-container">
+        <div class="text-container">
+            <h1 class="   animate__animated  animate__fadeInDown" style="font-weight: 700; font-size: 55px; margin-bottom: 23px;">
+                Learn and Earn with
+                <br />
+                Digi<span>Skills</span>.pk
+            </h1>
+            <p class=" animate__animated animate__fadeInLeft  animate__slow">
+                DigiSkills.pk 2.0 Training Program has been launched with
+                <br />
+                <span>05 New Advance Courses </span>aimed at equipping our Youth,
+                <br />
+                Freelancers, Students and Women.
+            </p>
+        </div>
+        <div class="image-container">
+            <img src="https://digiskills.pk/images/dotsgrey.png" alt="grey-dots" class="grey-dots animate__animated  " />
+            <img class="mt-" src="https://digiskills.pk/images/banner-right-image.png" alt="banner" class="right-banner" />
+
+             <!-- /*************** join now free courses button  **************/ -->
+
+             <button class="custom-join-btn bg-[#F99312] text-white h-14 animate__animated animate__fadeInUp">
+                <span class="ml-4 text-lg font-bold">Join Now Free Courses</span>
+                <svg width="custom-join-btn-svg 34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z font-bold" fill="white" class="font-bold"></path>
+                </svg>
+            </button>
+            
+        </div>
+    </div>
+</div>
+       <!--********* skilly *****************************-->
+<img class=" skilly fixed   h-28 w-32" src="https://digiskills.pk/images/icons/digiskills-robot.png" alt="">
+<div>
+    <div class=" glasses-bg fixed h-10 w-52 bg-sky-700 rounded-3xl bg-gradient-to-r from-sky-500 from-10% via-sky-500 via-30% to-emerald-500 to-60% "></div>
+    <img class="glasses fixed h-16 w-22" src= "C:\Users\Work\OneDrive\Desktop\Corvit\Nex_Gen_Inovation_projects\digiskills_site_prject\assets\sunglasses.png" alt="">
+    <div class="glasses-questions fixed font-bold text-slate-700">Any Questions?</div>
+</div>
+</section>
+<!-- ***************************** end of hero-banner ************************************************ -->
+ <!--**************************** Partners section **************************************************************************-->
+   <section>
+   <div class="bg-[#F0F0F0] h-28 flex items-center space-x-16 pl-24">
+    <div class="pb-4"><img src="https://digiskills.pk/images/partners.png" alt=""></div>
+    <div><div class="pl-20  font-semibold text-lg">CONCEIVED BY</div><img class="h-20 w-22" src="https://digiskills.pk/images/moitt.png" alt=""></div>
+    <div><div class="font-semibold text-lg">EXECUTED BY</div><img  class="h-20 w-22" src="https://digiskills.pk/images/vu.png" alt=""></div>
+    <div><div class="pl-12 font-semibold text-lg">FUNDED BY</div><img  class="h-20 w-22" src="https://digiskills.pk/images/ignite.png" alt=""></div>
+</div>
+</section>
+
+<!-- ******************************************************** About DigiSkills section **************************************************************************** -->
+<section> 
+<div class="flex">
+    <span class="text-6xl pl-28 pt-8 font-semibold text-[#EFEFEF]  " >About DigiSkills.pk</span> 
+   <span class=" about-ds-black-heading font-semibold text-4xl ">About DigiSkills.pk</span>
+</div>
+<div class="flex ">
+<div class="ml-24">
+    <!-- <span class="text-6xl pl-8 pt-24 font-semibold text-[#EFEFEF]" > About DigiSkills.pk</span> 
+<div class="text-4xl font-semibold">About DigiSkills.pk</div> -->
+<div class="mt-8 font-medium text-xl"> <div>DigiSkills.pk is the largest Training Program in Pakistan offering best <span class="text-[#F59321]">Free</span></div><span class="text-[#F59321]">Online Courses</span> in freelancing Skills with E-Certificates issued by VU and Ignite. Over <span class="text-[#F59321]">4.0 Million + trainings</span> have been imparted <span class="text-[#F59321]"> since 2018</span> to generate skilled workforce in Future of Work and to strengthen digital economy of Pakistan.</div>
+<div class="mt-8 font-medium text-xl"> The<span class="text-[#F59321]"> Women Empowerment</span> is a key element of this program, as they benefit to learn and earn sitting in the comfort of their homes.</div>
+</div>
+
+<!-- ******* view more btn *********-->
+<button class="another-join-btn bg-[#F99312] text-white h-10 animate__animated animate__fadeInUp">
+    <span class=" ml-10 text- font-bold">View More</span>
+    <svg width="another-join-btn-svg 34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z font-bold" fill="white" class="font-bold"></path>
+    </svg>
+</button>
+
+<!--******** Icons grey-Cards section *********-->
+<div class="ml-12 mr-16">
+
+ <!-- first row -->
+ <div class="  flex items-center space-x-6 pl-24">
+ <div class=" icon-card-what-ds bg-[#414141] h-48 w-60 ml-10 rounded-lg mt-12 ">
+   <img class="pt-8 pl-20" src="https://digiskills.pk/images/whatdigiskills.png" alt="">
+   <div class="text-white pl-2 text-xl font-bold"> <span class="text-[#F59321] text-3xl">What</span> is DigiSkills.pk?</div>
+ </div>
+
+ <div class=" icon-card-why-ds bg-[#414141] h-48 w-60 ml-10 rounded-lg">
+    <img class="pt-8 pl-20" src=" https://digiskills.pk/images/whydigiskills.png" alt="">
+    <div class="text-white pl-6 text-xl font-bold"> <span class="text-[#F59321] text-3xl">Why</span>DigiSkills.pk?</div>
+  </div>
+</div>
+
+    <!-- second row -->
+    <div class="flex items-center space-x-6 pl-24 ">
+  <div class=" icon-card-who-ds bg-[#414141] h-48 w-60 ml-10 rounded-lg">
+    <img class="pt-8 pl-20" src=" https://digiskills.pk/images/whodigiskills.png" alt="">
+    <div class="text-white pl-8 text-xl font-bold"> <span class="text-[#F59321] text-3xl">Who</span>Should Join?</div>
+  </div>
+
+  <div class=" icon-card-join-ds bg-[#F59321]  h-48 w-60 ml-10 rounded-lg mb-12">
+    <img class="pt-8 pl-20" src=" https://digiskills.pk/images/join.png" alt="">
+    <div class="text-white pl-14 text-xl font-bold"> <span class="text-[#414141] text-3xl">Join Now</span> </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ************************************************** Courses Offered section ************************************************************************************* -->
+ <section id="courses">
+ <div class="bg-[#F9F9F9] max-h-max  mt-12">
+
+     <div class="flex">
+            <!-- ******************* view all btn ********************    -->
+        <button class="   view-all-btn bg-[#F99312] text-white h-10 animate__animated animate__fadeInUp">
+            <span class="ml-10 text- font-bold">View All</span>
+            <svg width="view-all-btn-svg 34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z font-bold" fill="white" class="font-bold"></path>
+            </svg>
+        </button>
+            <!--************** Courses Offered heading **************-->
+
+        <span class="text-6xl pl-24 pt-8 font-semibold text-[#EFEFEF]" >Courses Offered</span> 
+       <span class=" courses-ofer-black-heading font-semibold text-4xl ">Courses Offered</span>
+</div>
+    <!--************** First Row ************** -->
+<div class="flex ml-28 space-x-2 mt-8">
+  <!-- card 1 first-row-->
+   
+  <div class=" courses-ofer-card-img ">
+    <div class=" border-x-2">
+       <img class=" h-52 w-80 flex " src="https://digiskills.pk/images/courses/FRL101_Image.png" alt="">
+       <img  class=" bell-icon h-12 w-22" src="https://digiskills.pk/images/upd.png" alt="">
+   </div>
+    <div class="bg-[ #FFFFFF]  h-48 border-x-2 border-b-2   shadow-lg shadow-cyan-500/50">
+        <span class="font-semibold text-xl pl-4 pt- hover:text-[#F59321] ">Freelancing</span> 
+         <hr class=" mt-32 bg-[#414141]">
+       <div class="flex ">
+          <div class="text-[#29AA31] font-bold text-lg pl-2 ">View Details</div>
+          <!-- <span class=""><img class="h-4 w-4 " src= "C:\Users\Work\OneDrive\Desktop\Corvit\Nex_Gen_Inovation_projects\digiskills_site_prject\assets\user (1).png" alt=""> </span> -->
+          <span class="pl-28 mb-12 text-[#797979] text-lg font-semibold">87,466</span>
+       </div>
+    </div>
+</div> 
+ 
+
+    <!-- card 2 first-row-->
+    <div class=" courses-ofer-card-img ">
+        <div class=" border-x-2 ">
+           <img class=" h-52 w-80 flex " src="https://digiskills.pk/images/courses/DGM101_Image.png" alt="">
+           <img  class=" bell-icon h-12 w-22" src="https://digiskills.pk/images/upd.png" alt="">
+       </div>
+        <div class="bg-[ #FFFFFF]  h-48 border-x-2 border-b-2  shadow-lg  ">
+            <span class="font-semibold text-xl pl-4 pt- hover:text-[#F59321]">Digital Marketing</span> 
+             <hr class=" mt-32 bg-[#414141]">
+           <div class="flex ">
+              <div class="text-[#29AA31] font-bold text-lg pl-2 ">View Details</div>
+              <span class=""><img class="" src= "C:\Users\Work\OneDrive\Desktop\Corvit\Nex_Gen_Inovation_projects\digiskills_site_prject\assets\user.png" alt=""> </span>
+              <span class="pl-28 mb-12 text-[#797979] text-lg font-semibold">87,466</span>
+           </div>
+        </div>
+    </div>  
+    <!-- card 3 first-row-->
+    <div class=" courses-ofer-card-img ">
+        <div class=" border-x-2 ">
+           <img class=" h-52 w-80 flex " src="https://digiskills.pk/images/courses/GRD101_Image.png" alt="">
+           <img  class=" bell-icon h-12 w-22" src="https://digiskills.pk/images/upd.png" alt="">
+       </div>
+        <div class="bg-[ #FFFFFF]  h-48 border-x-2 border-b-2 shadow-lg ">
+            <span class="font-semibold text-xl pl-4 pt- hover:text-[#F59321] ">Graphic Design</span> 
+             <hr class=" mt-32 bg-[#414141]">
+           <div class="flex ">
+              <div class="text-[#29AA31] font-bold text-lg pl-2 ">View Details</div>
+              <span class=""><img class="" src= "C:\Users\Work\OneDrive\Desktop\Corvit\Nex_Gen_Inovation_projects\digiskills_site_prject\assets\user.png" alt=""> </span>
+              <span class="pl-28 mb-12 text-[#797979] text-lg font-semibold">87,466</span>
+           </div>
+        </div>
+    </div>  
+
+    <!-- card 4 first-row -->
+    <div class=" courses-ofer-card-img ">
+        <div class=" border-x-2 ">
+           <img class=" h-52 w-80 flex " src="https://digiskills.pk/images/courses/VDE101_Image.png" alt="">
+           <img  class=" bell-icon h-12 w-22" src="https://digiskills.pk/images/upd.png" alt="">
+       </div>
+        <div class="bg-[ #FFFFFF]  h-48 border-x-2 border-b-2 shadow-lg ">
+            <span class="font-semibold text-xl pl-4 hover:text-[#F59321]">Video Editing, Animation  </span> 
+             <hr class=" mt-32 bg-[#414141]">
+           <div class="flex ">
+              <div class="text-[#29AA31] font-bold text-lg pl-2 ">View Details</div>
+              <span class=""><img class="" src= " assets\user.png" alt=""> </span>
+              <span class="pl-28 mb-12 text-[#797979] text-lg font-semibold">87,466</span>
+           </div>
+        </div>
+    </div>  
+</div>
+ <!--************** end of First Row ************** -->
+
+ <!--********************* Second Row ********************** -->
+ <div class="bg-[#F9F9F9] max-h-fit   ">
+<div class="flex ml-28 space-x-2 mt-56">
+    <!-- card 1 Second-row-->
+     
+    <div class=" courses-ofer-card-img ">
+      <div class=" border-x-2">
+         <img class=" h-52 w-80 flex bg-sky-500 hover:bg-sky-700  " src="https://digiskills.pk/images/courses/FRL101_Image.png" alt="">
+         <img  class=" bell-icon h-12 w-22" src="https://digiskills.pk/images/upd.png" alt="">
+     </div>
+      <div class="bg-[ #FFFFFF]  h-48 border-x-2 border-b-2   shadow-lg shadow-cyan-500/50">
+          <span class="font-semibold text-xl pl-4 pt- hover:text-[#F59321] ">Freelancing</span> 
+           <hr class=" mt-32 bg-[#414141]">
+         <div class="flex ">
+            <div class="text-[#29AA31] font-bold text-lg pl-2 ">View Details</div>
+            <span class=""><img class="" src= "assets\user.png" alt=""> </span>
+            <span class="pl-28 mb-12 text-[#797979] text-lg font-semibold">87,466</span>
+         </div>
+      </div>
+  </div> 
+   
+  
+      <!-- card 2 Second-row-->
+      <div class=" courses-ofer-card-img ">
+          <div class=" border-x-2 ">
+             <img class=" h-52 w-80 flex " src="https://digiskills.pk/images/courses/DGM101_Image.png" alt="">
+             <img  class=" bell-icon h-12 w-22" src="https://digiskills.pk/images/upd.png" alt="">
+         </div>
+          <div class="bg-[ #FFFFFF]  h-48 border-x-2 border-b-2  shadow-lg  ">
+              <span class="font-semibold text-xl pl-4 pt- hover:text-[#F59321]">Freelancing</span> 
+               <hr class=" mt-32 bg-[#414141]">
+             <div class="flex ">
+                <div class="text-[#29AA31] font-bold text-lg pl-2 ">View Details</div>
+                <span class=""><img class="" src= "C:\Users\Work\OneDrive\Desktop\Corvit\Nex_Gen_Inovation_projects\digiskills_site_prject\assets\user.png" alt=""> </span>
+                <span class="pl-28 mb-12 text-[#797979] text-lg font-semibold">87,466</span>
+             </div>
+          </div>
+      </div>  
+      <!-- card 3 Second-row-->
+      <div class=" courses-ofer-card-img ">
+          <div class=" border-x-2 ">
+             <img class=" h-52 w-80 flex " src="https://digiskills.pk/images/courses/GRD101_Image.png" alt="">
+             <img  class=" bell-icon h-12 w-22" src="https://digiskills.pk/images/upd.png" alt="">
+         </div>
+          <div class="bg-[ #FFFFFF]  h-48 border-x-2 border-b-2 shadow-lg ">
+              <span class="font-semibold text-xl pl-4 pt- hover:text-[#F59321] ">Freelancing</span> 
+               <hr class=" mt-32 bg-[#414141]">
+             <div class="flex ">
+                <div class="text-[#29AA31] font-bold text-lg pl-2 ">View Details</div>
+                <span class=""><img class="" src= "C:\Users\Work\OneDrive\Desktop\Corvit\Nex_Gen_Inovation_projects\digiskills_site_prject\assets\user.png" alt=""> </span>
+                <span class="pl-28 mb-12 text-[#797979] text-lg font-semibold">87,466</span>
+             </div>
+          </div>
+      </div>  
+  
+      <!-- card 4 Second-row -->
+      <div class=" courses-ofer-card-img ">
+          <div class=" border-x-2 ">
+             <img class=" h-52 w-80 flex " src="https://digiskills.pk/images/courses/VDE101_Image.png" alt="">
+             <img  class=" bell-icon h-12 w-22" src="https://digiskills.pk/images/upd.png" alt="">
+         </div>
+          <div class="bg-[ #FFFFFF]  h-48 border-x-2 border-b-2 shadow-lg ">
+              <span class="font-semibold text-xl pl-4 pt- hover:text-[#F59321]">Freelancing</span> 
+               <hr class=" mt-32 bg-[#414141]">
+             <div class="flex ">
+                <div class="text-[#29AA31] font-bold text-lg pl-2 ">View Details</div>
+                <span class=""><img class="" src= "C:\Users\Work\OneDrive\Desktop\Corvit\Nex_Gen_Inovation_projects\digiskills_site_prject\assets\user.png" alt=""> </span>
+                <span class="pl-28 mb-12 text-[#797979] text-lg font-semibold">87,466</span>
+             </div>
+          </div>
+      </div>  
+  </div>
+</div>
+</div>
+   <!--*********** end of Second Row ******* -->
+
+<!-- ******************* load more btn ********************   -->
+
+   <button class="load-more-btn bg-[#F99312] text-white h-12 animate__animated animate__fadeInUp">
+    <span class="ml-10 text-lg font-bold">Load More</span>
+    <svg width="load-more-btn-svg 34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z font-bold" fill="white" class="font-bold"></path>
+    </svg>
+</button>
+</section>
+   
+ 
+<!-- ************************************************************ Overall status section ************************************************************-->
+<section>
+              <!--************************* bg image & color *************************-->
+
+       
+      <div class="bg-img-color relative mt-80 ">
+        <div class="bg-fixed bg-cover bg-center absolute inset-0" style="background-image: url('https://img.freepik.com/premium-photo/man-woman-sit-computer-with-graph-graph-wall-them_1103290-28970.jpg?w=1060');"></div>
+        <div class="absolute inset-0 bg-black bg-opacity-75"></div>
+     
+
+        <!-- <div class="bg-fixed bg-cover bg-center absolute inset-0" style="background-image: url(' https://digiskills.pk/images/enroll-img.jpg');"></div> -->
+         
+     
+        <div class="space-x-96 ml-80 pt-24">
+            <div class="absolute" ><img class="h-32 w-32 ml-14" src="https://digiskills.pk/images/signup.png" alt=""><div class="text-2xl text-white font-semibold pl-10 pt-6" >Overall Sign-ups</div>  <div class="text-5xl text-white font-semibold pl-8">3,463,516</div> </div>
+
+            <div class="absolute" ><img class="h-32 w-32" src="https://digiskills.pk/images/enroll.png" alt="">><div class="text-2xl text-white font-semibold pl- pt-" >Overall Enrollments</div>  <div class="text-5xl text-white font-semibold pl- pr- mr-">4,437,070</div></div>
+
+            <div class="absolute" ><img class="h-32 w-32  ml-96" src="https://digiskills.pk/images/enrollment.png" alt="">><div class="text-2xl text-white font-semibold pl-96 pt-" >DSTP2.0-Batch-08 Enrollments</div>  <div class="text-5xl text-white font-semibold pl-96" >163,227</div></div>
+          </div>
+               <!-- **************** btn view more insight  ****************-->
+          <button class="view-more-insight bg-[#F99312] text-white h-12 animate__animated animate__fadeInUp">
+            <span class="ml-10 text-lg font-bold">View More Insight</span>
+            <svg width="view-more-insight-svg 34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z font-bold" fill="white" class="font-bold"></path>
+            </svg>
+        </button>
+      </div> 
+</section>
+
+<!-- ************************************************************ News and Events section ************************************************************-->
+<section id="news&events">
+
+    <div class="mt-10">
+
+    <span class="text-6xl pl-24 pt-8 font-semibold text-[#EFEFEF]" >News and Events </span> 
+    <span class=" news-events-black-heading font-semibold text-4xl  ">News and Events</span>
+ 
+   <button class="view-all-sec-btn bg-[#F99312] text-white h-10 animate__animated animate__fadeInUp">
+    <span class="ml-10 text- font-bold">View All</span>
+    <svg width="view-all-sec-btn-svg 34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z font-bold" fill="white" class="font-bold"></path>
+    </svg>
+</button>
+<!--**************** first event  **************** *-->
+<div class="flex ">
+<!-- <div class="h-60 w-80 border-2 border-black"> -->
+ <img class="h-52 w-80 mt-10 ml-72" src="https://img.freepik.com/free-vector/beautiful-islamic-eid-al-adha-mubarak-greeting-card_1055-10459.jpg?t=st=1719111177~exp=1719114777~hmac=09882e8d58d64f86d80f1f58986b321a6815c84d4d2e0f9f190d5c1a1f802f76&w=740" alt="">
+  <!-- </div>   -->
+    <div class="date">
+        <div class="text-5xl text-[#F99312] font-semibold">14</div>
+        <div class="font-semibold text-lg">Jun,2024</div>
+    </div>
+     <div class="">
+        <div class="text-2xl font-semibold mt-10 ml-10 text-[#2A2A2A] hover:text-[#F99312]">Eid Al Adha Holidays BUT Batch-08 Enrollments are still OPEN</div>
+        <div class="flex">
+        
+        <div><img class="h-4 w-4 ml-10 mt-2" src=" assets\calendar.png" alt=""></div>
+        <div class="text-[#F99312] text-lg font-semibold ml-2">Jun 14,2024  </div>
+    </div>
+    <div class="ml-10 text-lg mr-20">DigiSkills.pk will be closed from <span class="font-semibold">17th June 2024</span> to <span class="font-semibold">23rd June 2024</span> on account of the auspicious occasion of <span class="font-semibold">Eid al Adha...</span></div>
+     </div>
+    
+</div>
+<button class="btn-read-more text-[#F99312] font-semibold ">Read More</button>
+
+<!--**************** second event ****************-->
+<div class="flex ">
+    <!-- <div class="h-60 w-80 border-2 border-black"> -->
+    <img class="h-52 w-72 mt-10 ml-72" src="https://digiskills.pk/images/courses/COM101_Image.png" alt="">
+      <!-- </div>   -->
+        <div class="date2">
+            <div class="text-5xl text-[#F99312] font-semibold">03</div>
+            <div class="font-semibold text-lg">Jun,2024</div>
+        </div>
+         <div class="">
+            <div class="text-2xl font-semibold mt-10 ml-10 text-[#2A2A2A] hover:text-[#F99312]">Course Enrollments for Batch-08 of DigiSkills 2.0 are OPEN </div>
+            <div class="flex">
+            
+            <div><img class="h-4 w-4 ml-10 mt-2" src=" assets\calendar.png" alt=""></div>
+            <div class="text-[#F99312] text-lg font-semibold ml-2">Jun 03,2024  </div>
+        </div>
+        <div class="ml-10 text-lg mr-20"> DigiSkills Training Program has opened enrollments for Batch-08 from <span class="font-semibold">June 03, 2024.</span>  </div>
+         </div>
+        
+    </div>
+    <button class="btn2-read-more text-[#F99312] font-semibold ">Read More</button>
+
+    <!--**************** third event  **************** *-->
+<div class="flex ">
+    <!-- <div class="h-60 w-80 border-2 border-black"> -->
+    <img class="h-52 w-72 mt-10 ml-72" src="https://digiskills.pk/images/courses/WPS101_Image.png" alt="">
+      <!-- </div>   -->
+        <div class="date3">
+            <div class="text-5xl text-[#F99312] font-semibold">03</div>
+            <div class="font-semibold text-lg">May,2024</div>
+        </div>
+         <div class="">
+            <div class="text-2xl font-semibold mt-10 ml-10 text-[#2A2A2A] hover:text-[#F99312]" >
+                Course Enrollments for Batch-08 of DigiSkills Training Program </div>
+            <div class="flex">
+            
+            <div><img class="h-4 w-4 ml-10 mt-2" src=" assets\calendar.png"alt=""></div>
+            <div class="text-[#F99312] text-lg font-semibold ml-2">May 03,2024</div>
+        </div>
+        <div class="ml-10 text-lg mr-20">DigiSkills Training Program 2.0 will be opening enrollments for <span class="font-semibold">Batch-08 </span> on  <span class="font-semibold"> Monday, June 03, 2024,</span>  by  <span class="font-semibold">11:00 AM.</span>A total of <span class="font-semibold">300,000</span> seats will be available in this batch that will be filled on a...</div>
+         </div>
+        
+    </div>
+    <button class="btn3-read-more text-[#F99312] font-semibold ">Read More</button>
+</div>
+</section>
+
+  <!-- ************************************************************ success-stories section ************************************************************--> 
+<section class=" ">
+    
+<div class="success-stories-bg-img relative mt-20 ">
+
+<!-- <div class="bg-center bg-center bg-fixed"><img src="https://digiskills.pk/images/success-stories.png" alt=""></div> -->
+ <div class="bg-fixed bg-cover bg-center absolute inset-0" style="background-image: url(' https://digiskills.pk/images/success-stories.png');"></div>
+</div>
+ <div class="flex">
+    <span class="success-stories-white-heading text-6xl  pt-12 font-semibold text-[#414242]" >Success Stories </span> 
+    <span class=" success-stories-black-heading font-semibold text-4xl text-[#EFEFEF] ">Success Stories </span>
+    <div class="top-erners-h  text-[#F99312] text-xl font-semibold">Top Ten Earners</div>
+
+
+    <!--***************** view more third btn ***************** -->
+    <button class="view-more-third-btn view-more-third-btn-bg view-more-third-btn-text animate__animated animate__fadeInUp">
+        <span class="ml-10 text- font-bold">View More</span>
+        <svg class="view-more-third-btn-svg" width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z font-bold" fill="white" class="font-bold"></path>
+        </svg>
+    </button>
+    <div class="profile-pick1 h-10 w-10  "><img src= " assets\profile.png" alt=""></div>
+    <div class="profile-pick2 h-16 w-16  "><img src= " assets\profile.png" alt=""></div>
+    <div class="profile-pick3  h-16 w-16 "><img src= " assets\profile.png" alt=""></div>
+    <div class="profile-pick4  h-14 w-14 "><img src= " assets\profile.png" alt=""></div>
+    <div class="profile-pick5  h-14 w-14 "><img src= " assets\profile.png" alt=""></div>
+     <div class="profile-pick-center h-24 w-24"><img src= " assets\profile.png" alt=""></div>
+     
+
+    <div class="dotted-demi-circle"><img src="https://digiskills.pk/images/pic-dotted-demi-circle.png" alt=""></div>
+</div>
+<div class="success-stories-text">
+    <div class="font-semibold text-5xl text-white"> #7</div>
+    <div class="text-[#F99312] text-2xl font-semibold">Muhammad Ali Hussain Shahid</div>
+    <div class="font-semibold  text-xl text-white"> Karor</div>
+    <div class="text-[#F99312] text-xl font-semibold mt-8">EARNED US$189,278</div>
+    <div class="flex">
+    <div class="   text-lg text-white">Fiverr's Rating:</div>
+    <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+    <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+    <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+    <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+    <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+
+    </div>
+    <div class=" text-white mt-8 mr-32"> 
+        I provide Web Development, E-Commerce, Dropshipping, ad networks, and other services directly to my clients through my website. I also give free classes to interested people in my area to empower my society. Specialist in dropshipping model and covering eCommerce marketplaces of USA and Europe. I am grateful to DigiSkills and its team. 
+   </div>
+</div>
+</section>
+
+  <!-- ************************************************************  Story of the month section ************************************************************--> 
+
+  <section>
+     
+    <div class="story-of-month-bg flex  bg-[#F2F2F2] h- w-full">
+        <span class="month-story-white-heading text-6xl ml-24 pt-12 font-semibold text-[#F32F2] text-gray-200" >  Story of the Month </span> 
+    <span class=" month-story-black-heading font-semibold text-4xl text ">Story of the Month </span>
+    
+ 
+  <!--***************** view more fourth btn ***************** -->
+<button class="view-more-fourth-btn view-more-fourth-btn-bg view-more-fourth-btn-text animate__animated animate__fadeInUp">
+    <span class="ml-10 text- font-bold">View More</span>
+    <svg class="view-more-fourth-btn-svg" width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z font-bold" fill="white" class="font-bold"></path>
+    </svg>
+</button>
+<div class=" success-stories-date flex  ">
+<div><img class="h-4 w-4  mt-2" src=" assets\calendar.png" alt=""></div>
+            <div class="text-[#F99312] text-xl font-semibold ml-2">Jun 03,2024  </div>
+        </div>
+
+        <div class="video ml-14">
+            <img class="video-icon" src="https://digiskills.pk/images/videoicon.png" alt="">
+<iframe width="531" height="330" src="https://www.youtube.com/embed/hPbhWIPHnzA" title="May 2024 - Story of the Month" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="mt-48 ml-40">
+    <div class="text-2xl">Ayesha</div>
+    <div class="text-xl font-medium text-[#F99312]">Toba Tek Singh</div>
+    <div class="mt-10">I am Ayesha from Toba Tek Singh. I started my Freelancing career as a Graphic </div>
+    <div>Designer in March 2023. Alhamdulillah I have created more than 50K AI Generative</div>
+    <div>content in one year. My content is used by designers around the globe. Thank y...</div>
+    <div class="text-[#414242] mt-6 font-medium">Area(s) of Expertise: <span class="text-[#4D4DE2] text-lg">Freelancing, Graphic Design</span></div>
+    <div class="flex">
+        <div class="  text-[#414242] text-lg ">Fiverr's Rating:</div>
+        <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+        <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+        <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+        <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+        <span><img  class="h-4 w-4 mt-2 ml-2" src=" assets\star.png" alt=""></span>
+    
+        </div>
+</div>
+<!-- <div class="text- ml-10 mr-32" > I am Ayesha from Toba Tek Singh. I started my Freelancing career as a Graphic Designer in March 2023. Alhamdulillah I have created more than 50K AI Generative content in one year. My content is used by designers around the globe. Thank</div> -->
+</div>
+</section>
+
+  <!-- ************************************************************  Popular Blogs section ************************************************************--> 
+<section>
+     <span class="popular-blogs-white-heading text-6xl ml-24 mt-10 pt-12 font-semibold text-[#F32F2] text-gray-200" > Popular Blogs </span> 
+<span class=" popular-blogs-black-heading font-semibold text-4xl text ">Popular Blogs </span>
+
+<div class="border-2">
+    <div class="  ml-32 mt-48"><img class=" card-img  border-x-2 border-y-2 " src="https://img.freepik.com/free-vector/character-his-free-time-postponed-work_23-2148515323.jpg?t=st=1719001400~exp=1719005000~hmac=29c2ea2392ea767787a2ee74b6f691bccf1597b56e8d0e31bd36d85194287b6a&w=996" alt=""></div>
+    <div class="card-text-area bg-bl  shadow-xl ml-32 mt-96 border-x-2 b ">
+        <div class="ml-2 mt- text-xl font-medium tracking-tight	">The Impact of AI on SEO: Pros, Cons and</div>
+    </div>
+</div>
+</section>
+  <!-- ************************************************************   Be your own boss section ************************************************************--> 
+   <section>
+    <div class="mt ">
+    <div class=" h-80 w-full bg-top bg-cover bg-[url('https://digiskills.pk/images/background-img-1.jpg')]"></div>
+    <div class="boss-text text-white font-medium text-5xl ml-40">Be Your Own Boss By Learning Freelancing Skills</div>
+</div>
+   </section>
+   <!-- <img class="h-60 w-full bg-center " src="https://digiskills.pk/images/background-img-1.jpg" alt=""> -->
+
+     <!-- ************************************************************   mobile app section ************************************************************--> 
+
+     <section>
+     <span class="mobile-app-white-heading text-6xl ml-24 mt-10 pt-12 font-semibold text-[#F5F5F5] text-gray-200" > Mobile App </span> 
+     <span class=" mobile-app-black-heading font-semibold text-4xl text ">Mobile App </span>
+     <div >
+        <div class=" flex mt-32  w-full pl-20  bg-cover bg-[url('https://digiskills.pk/images/mobile_app_bg.png')]">
+            <img src="https://digiskills.pk/images/mobile_app.png" alt="">
+            <div class="mt-96 ml-28"> Never miss a lecture or run over a deadline of your Quiz or Hands on Exercise.<div>Download and Install the DigiSkills.pk App to give it a Try!</div></div>
+            <span class="app-icons flex space-x-2 ">
+                <span><img src="https://digiskills.pk/images/andoid.png" alt=""></span>
+                <span> <img src="https://digiskills.pk/images/app_store.png" alt=""></span>
+               <span><img src="https://digiskills.pk/images/huwawi.png" alt=""></span>
+            </span>
+            
+        </div>
+     </div>
+    </section>
+
+
+    <!-- ************** Start of footer ***************** -->
+ <footer class="bg-black text-white">
+    <div class="container mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-1 text-center">
+
+            <!-- ************ Footer logo *********** -->
+            <div class="flex flex-col items-center">
+                <a href="https://digiskills.pk/Default.aspx">
+                    <img class="h-12 w-42" src= "https://digiskills.pk/images/digiskills.png" alt="digiskills footer logo">
+                </a>
+            </div>
+
+            <!-- ***** Useful Links ****** -->
+            <div class="flex flex-col items-right">
+                <h3 class="text-lg font-bold mb-2 text-left text-[#F99312]">Useful Links</h3>
+                <div class="flex flex-row space-x-8">
+                    <ul class="text-left">
+                        <li>Courses</li>
+                        <li>Success Stories</li>
+                        <li>Blog</li>
+                        <li>Story of the month</li>
+                        <li>Contact us</li>
+                    </ul>
+                    <ul class="text-left">
+                        <li>News & Events</li>
+                        <li>FAQs</li>
+                        <li>How It Works</li>
+                        <li>Reflections</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ***** Contact DigiSkills ***** -->
+            <div class="flex flex-col items-left">
+                <h3 class="text-lg font-bold mb-2 text-left text-[#F99312]">Contact DigiSkills</h3>
+                <ul class="text-left">
+                    <li class="flex items-center">
+                        Phone:
+                        <img class="h-5 w-5 mr-2 ml-2" src=" assets\phone icon.png" alt="Phone logo">
+                         0304-111-1570
+                    </li>
+
+                    <li class="flex items-center">
+                        Email:
+                        <img class="h-9 w-9 mr-1 ml-1 " src=" assets\mail icon.png" alt="Phone logo">
+                        <a class="text-[#F99312]" href="info@digiskills.pk">info@digiskills.pk</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ***** Follow Us ***** -->
+            <div class="flex flex-col items-left">
+                <h3 class="text-lg font-bold mb-2 text-left text-[#F99312]">Follow Us</h3>
+                <div class="flex space-x-4">
+                    <!-- *** Facebook icon *** -->
+                    <a href="https://www.facebook.com/digiskillspakistan" class="h-9 w-9">
+                        <img src=" assets\facebook.png" alt="Facebook icon">
+                    </a>
+
+                    <!-- *** LinkedIn icon *** -->
+                    <a href="https://www.linkedin.com/company/digiskillspakistan" class="h-9 w-9">
+                        <img src= " assets\linkedin.png" alt="LinkedIn icon">
+                    </a>
+
+                    <!-- *** YouTube icon *** -->
+                    <a href="https://www.youtube.com/c/DigiSkillsPakistan" class="h-9 w-9">
+                        <img src=" assets\youtube.png" alt="YouTube icon">
+                    </a>
+                    
+                    <!-- *** Instagram icon *** -->
+                    <a href="#" class="h-9 w-9">
+                        <img src= " assets\instagram.png" alt="Instagram icon">
+                    </a>
+
+                    <!-- *** Twitter icon *** -->
+                    <a href="#" class="h-9 w-9">
+                        <img src= " assets\twitter.png" alt="Twitter icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+             <!-- ************** Horizontal Line *************** -->
+        <hr class="my-8 border-slate-300">
+
+        <div class="items-center text-center">
+            Copyright © 2018
+           <a href=""><span class=" text-[#F99312] hover:text-white transition duration-300">DigiSkills.pk</span></a>. All Rights Reserved.
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
